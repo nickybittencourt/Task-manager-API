@@ -18,7 +18,7 @@ const sendCancelEmail = (email, name) => {
         to: email,
         from: "nickytuon75@gmail.com",
         subject: "Sorry to see you go",
-        text: `Thanks, ${name}`
+        text: `Thanks ${name}`
     })
 }
 
